@@ -1,0 +1,10 @@
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Auxiliar\bin\Debug\netstandard2.0\E-FutebolDigital.Auxiliar.deps.json
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Auxiliar\bin\Debug\netstandard2.0\E-FutebolDigital.Auxiliar.dll
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Auxiliar\bin\Debug\netstandard2.0\E-FutebolDigital.Auxiliar.pdb
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Auxiliar\obj\Debug\netstandard2.0\E-FutebolDigital.Auxiliar.AssemblyInfoInputs.cache
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Auxiliar\obj\Debug\netstandard2.0\E-FutebolDigital.Auxiliar.AssemblyInfo.cs
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Auxiliar\obj\Debug\netstandard2.0\E-FutebolDigital.Auxiliar.dll
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Auxiliar\obj\Debug\netstandard2.0\E-FutebolDigital.Auxiliar.pdb
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Auxiliar\obj\Debug\netstandard2.0\E-FutebolDigital.Auxiliar.csprojAssemblyReference.cache
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Auxiliar\obj\Debug\netstandard2.0\E_FutebolDigital.Auxiliar.Mensagens.Erro.resources
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Auxiliar\obj\Debug\netstandard2.0\E-FutebolDigital.Auxiliar.csproj.GenerateResource.cache

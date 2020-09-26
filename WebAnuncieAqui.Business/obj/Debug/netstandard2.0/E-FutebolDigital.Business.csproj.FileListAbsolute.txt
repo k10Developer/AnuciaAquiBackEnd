@@ -1,0 +1,13 @@
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Business\bin\Debug\netstandard2.0\E-FutebolDigital.Business.deps.json
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Business\bin\Debug\netstandard2.0\E-FutebolDigital.Business.dll
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Business\bin\Debug\netstandard2.0\E-FutebolDigital.Business.pdb
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Business\bin\Debug\netstandard2.0\E-FutebolDigital.Dominio.dll
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Business\bin\Debug\netstandard2.0\E-FutebolDigital.Dominio.pdb
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Business\obj\Debug\netstandard2.0\E-FutebolDigital.Business.csprojAssemblyReference.cache
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Business\obj\Debug\netstandard2.0\E-FutebolDigital.Business.AssemblyInfoInputs.cache
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Business\obj\Debug\netstandard2.0\E-FutebolDigital.Business.AssemblyInfo.cs
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Business\obj\Debug\netstandard2.0\E-FutebolDigital.Business.csproj.CopyComplete
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Business\obj\Debug\netstandard2.0\E-FutebolDigital.Business.dll
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Business\obj\Debug\netstandard2.0\E-FutebolDigital.Business.pdb
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Business\bin\Debug\netstandard2.0\E-FutebolDigital.Auxiliar.dll
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Business\bin\Debug\netstandard2.0\E-FutebolDigital.Auxiliar.pdb

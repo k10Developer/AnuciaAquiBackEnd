@@ -1,0 +1,5 @@
+C:\Projetos\Questor\e-futeboldigital\E-FutebolDigital.API\obj\Debug\netcoreapp3.1\WebAnuncieAquiAPI.csprojAssemblyReference.cache
+C:\Projetos\Questor\e-futeboldigital\E-FutebolDigital.API\obj\Debug\netcoreapp3.1\WebAnuncieAquiAPI.AssemblyInfoInputs.cache
+C:\Projetos\Questor\e-futeboldigital\E-FutebolDigital.API\obj\Debug\netcoreapp3.1\WebAnuncieAquiAPI.AssemblyInfo.cs
+C:\Projetos\Questor\e-futeboldigital\E-FutebolDigital.API\obj\Debug\netcoreapp3.1\WebAnuncieAquiAPI.csproj.CoreCompileInputs.cache
+C:\Projetos\Questor\e-futeboldigital\E-FutebolDigital.API\obj\Debug\netcoreapp3.1\WebAnuncieAquiAPI.MvcApplicationPartsAssemblyInfo.cache

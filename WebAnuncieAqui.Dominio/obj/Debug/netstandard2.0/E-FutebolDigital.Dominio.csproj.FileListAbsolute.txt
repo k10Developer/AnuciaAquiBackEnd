@@ -1,0 +1,8 @@
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Dominio\bin\Debug\netstandard2.0\E-FutebolDigital.Dominio.deps.json
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Dominio\bin\Debug\netstandard2.0\E-FutebolDigital.Dominio.dll
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Dominio\bin\Debug\netstandard2.0\E-FutebolDigital.Dominio.pdb
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Dominio\obj\Debug\netstandard2.0\E-FutebolDigital.Dominio.csprojAssemblyReference.cache
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Dominio\obj\Debug\netstandard2.0\E-FutebolDigital.Dominio.AssemblyInfoInputs.cache
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Dominio\obj\Debug\netstandard2.0\E-FutebolDigital.Dominio.AssemblyInfo.cs
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Dominio\obj\Debug\netstandard2.0\E-FutebolDigital.Dominio.dll
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Dominio\obj\Debug\netstandard2.0\E-FutebolDigital.Dominio.pdb

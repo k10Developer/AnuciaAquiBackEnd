@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "SbEF1x8jfPb49/V+n5JNh9jV8GB8PwG3y/jPHsj+ElFfxgQL6p/YqMYkH4YdKF0l4/li/dc91hB2GOliL2gkxg==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\Questor\\e-futeboldigital\\WebAnuncieAqui.Auxiliar\\WebAnuncieAqui.Auxiliar.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kenne\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\kenne\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

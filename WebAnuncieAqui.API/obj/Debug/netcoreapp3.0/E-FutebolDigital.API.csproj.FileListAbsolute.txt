@@ -1,0 +1,10 @@
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.API\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.API\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.API\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.API\bin\Debug\netcoreapp3.0\E-FutebolDigital.API.exe
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.API\obj\Debug\netcoreapp3.0\E-FutebolDigital.API.csprojAssemblyReference.cache
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.API\obj\Debug\netcoreapp3.0\E-FutebolDigital.API.AssemblyInfoInputs.cache
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.API\obj\Debug\netcoreapp3.0\E-FutebolDigital.API.AssemblyInfo.cs
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.API\obj\Debug\netcoreapp3.0\E-FutebolDigital.API.RazorTargetAssemblyInfo.cache
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.API\obj\Debug\netcoreapp3.0\staticwebassets\E-FutebolDigital.API.StaticWebAssets.Manifest.cache
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.API\obj\Debug\netcoreapp3.0\staticwebassets\E-FutebolDigital.API.StaticWebAssets.xml

@@ -1,0 +1,13 @@
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Infra\bin\Debug\netstandard2.0\E-FutebolDigital.Dominio.dll
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Infra\obj\Debug\netstandard2.0\E-FutebolDigital.Infra.csprojAssemblyReference.cache
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Infra\obj\Debug\netstandard2.0\E-FutebolDigital.Infra.AssemblyInfoInputs.cache
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Infra\obj\Debug\netstandard2.0\E-FutebolDigital.Infra.AssemblyInfo.cs
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Infra\bin\Debug\netstandard2.0\E-FutebolDigital.Infra.deps.json
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Infra\bin\Debug\netstandard2.0\E-FutebolDigital.Infra.dll
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Infra\bin\Debug\netstandard2.0\E-FutebolDigital.Infra.pdb
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Infra\bin\Debug\netstandard2.0\E-FutebolDigital.Dominio.pdb
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Infra\obj\Debug\netstandard2.0\E-FutebolDigital.Infra.csproj.CopyComplete
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Infra\obj\Debug\netstandard2.0\E-FutebolDigital.Infra.dll
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Infra\obj\Debug\netstandard2.0\E-FutebolDigital.Infra.pdb
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Infra\bin\Debug\netstandard2.0\E-FutebolDigital.Auxiliar.dll
+C:\Users\USER-22\source\repos\E-FutebolDigital\E-FutebolDigital.Infra\bin\Debug\netstandard2.0\E-FutebolDigital.Auxiliar.pdb
