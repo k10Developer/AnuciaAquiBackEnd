@@ -59,12 +59,18 @@ namespace WebAnuncieAqui.Infra.Migrations
 
             Insert.IntoTable("Modelo").Row(new { Descricao = "Classic", MarcaId =  1});
             Insert.IntoTable("Modelo").Row(new { Descricao = "Onix", MarcaId = 1 });
+            Insert.IntoTable("Modelo").Row(new { Descricao = "Cruze", MarcaId = 1 });
+            Insert.IntoTable("Modelo").Row(new { Descricao = "Spin", MarcaId = 1 });
 
             Insert.IntoTable("Modelo").Row(new { Descricao = "Gol", MarcaId = 2 });
             Insert.IntoTable("Modelo").Row(new { Descricao = "Fox", MarcaId = 2 });
+            Insert.IntoTable("Modelo").Row(new { Descricao = "Golf", MarcaId = 2 });
+            Insert.IntoTable("Modelo").Row(new { Descricao = "Polo", MarcaId = 2 });
 
             Insert.IntoTable("Modelo").Row(new { Descricao = "Uno", MarcaId = 3 });
             Insert.IntoTable("Modelo").Row(new { Descricao = "Argo", MarcaId = 3 });
+            Insert.IntoTable("Modelo").Row(new { Descricao = "Modi", MarcaId = 3 });
+            Insert.IntoTable("Modelo").Row(new { Descricao = "Siena", MarcaId = 3 });
 
 
         }

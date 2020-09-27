@@ -6,8 +6,8 @@ using System.Text;
 
 namespace WebAnuciaAqui.Infra.Migrations
 {
-    [Migration(202003271417)]
-    public class _202003271417_Cricacao_Tabela_Usuario : Migration
+    [Migration(202009250800)]
+    public class _202009250800_Cricacao_Tabela_Usuario : Migration
     {
         public override void Down()
         {
