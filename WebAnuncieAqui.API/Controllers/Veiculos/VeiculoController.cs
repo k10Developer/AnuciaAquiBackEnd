@@ -49,6 +49,20 @@ namespace WebAnuncieAqui.API.Controllers.Veiculos
             }
         }
 
+        [HttpGet]
+        [Route("v1/Veiculos/SemVinculo")]
+        public async Task<IActionResult> ObterTodosSemVinculo()
+        {
+            try
+            {
+                return Ok(_repositorio.ObterVeiculosSemVinculos());
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
         [HttpDelete]
         [Route("v1/Veiculos/{id}")]
         public async Task<IActionResult> Remover(int id)

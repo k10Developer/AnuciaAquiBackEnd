@@ -12,7 +12,7 @@ namespace WebAnuncieAqui.Dominio.Dominios.Vendas.Repositorio
         List<Venda> ObterTodos();
         List<RelatorioVenda> ObterVendasPorPeriodo(DateTime dataInical, DateTime dataFinal);
         Venda ObterPorId(int vendaId);
-
+        Venda ObterPorAnuncioId(int anuncioId);
 
     }
 }

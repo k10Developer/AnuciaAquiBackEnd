@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using WebAnuciaAqui.Infra;
 using WebAnuncieAqui.Dominio.Dominios.Veiculos;
 using WebAnuncieAqui.Dominio.Dominios.Veiculos.Repositorio;
+using WebAnuncieAqui.Infra.Helpers;
 
 namespace WebAnuncieAqui.Infra.Repositorios.Veiculos
 {
@@ -30,6 +32,17 @@ namespace WebAnuncieAqui.Infra.Repositorios.Veiculos
         public List<Veiculo> ObterTodos()
         {
             return _webAnuncieAquiContext.Veiculos.Where(c => c.Ativo).ToList();
+        }
+
+        public List<Veiculo> ObterVeiculosSemVinculos()
+        {
+            var sql = $@"
+                   select [V].* from [Veiculo] as [V]
+                           left join [Anuncio] as [A] on [A].[VeiculoId] = [V].[Id]
+                           where [V].[Ativo] and([A].[Id] is null or [A].[Ativo] = {false})
+                      ".TSQLToAnsi();
+            var result = _webAnuncieAquiContext.Veiculos.FromSqlRaw<Veiculo>(sql).ToList();
+            return result;
         }
 
         public void Remover(int veiculoId)

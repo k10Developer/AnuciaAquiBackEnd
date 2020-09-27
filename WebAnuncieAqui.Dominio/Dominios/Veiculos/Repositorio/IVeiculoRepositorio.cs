@@ -10,6 +10,7 @@ namespace WebAnuncieAqui.Dominio.Dominios.Veiculos.Repositorio
         void Alterar(Veiculo veiculo);
         void Remover(int veiculoId);
         List<Veiculo> ObterTodos();
+        List<Veiculo> ObterVeiculosSemVinculos();
         Veiculo ObterPorId(int veiculoId);
     }
 }

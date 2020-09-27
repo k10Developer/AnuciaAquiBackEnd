@@ -67,6 +67,20 @@ namespace WebAnuncieAqui.API.Controllers.Vendas
             }
         }
 
+        [HttpGet]
+        [Route("v1/Vendas/Anuncio/{id}")]
+        public async Task<IActionResult> ObterTodos(int id)
+        {
+            try
+            {
+                return Ok(_repositorio.ObterPorAnuncioId(id));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
         [HttpDelete]
         [Route("v1/Vendas/{id}")]
         public async Task<IActionResult> Remover(int id)

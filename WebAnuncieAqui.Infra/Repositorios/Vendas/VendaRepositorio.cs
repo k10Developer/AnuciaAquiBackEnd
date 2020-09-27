@@ -24,6 +24,11 @@ namespace WebAnuncieAqui.Infra.Repositorios.Vendas
             _webAnuncieAquiContext.SaveChanges();
         }
 
+        public Venda ObterPorAnuncioId(int anuncioId)
+        {
+            return _webAnuncieAquiContext.Vendas.Where(c => c.AnuncioId == anuncioId).FirstOrDefault();
+        }
+
         public Venda ObterPorId(int vendaId)
         {
             return _webAnuncieAquiContext.Vendas.Where(c => c.Id == vendaId && c.Ativo).FirstOrDefault();
