@@ -70,7 +70,7 @@ namespace WebAnuncieAqui.API.Controllers.Modelos
             try
             {
                 if (_repositorio.VinculadoAAlgumCarro(id))
-                    throw new Exception("Marca não pode ser removida, pois possui vinculo com um carro.");
+                    throw new Exception("Modelo não pode ser removido, pois possui vinculo com um carro.");
                 _servicos.Remover(id);
                 return Ok(new { message = "Operação realizada com sucesso." });
             }
