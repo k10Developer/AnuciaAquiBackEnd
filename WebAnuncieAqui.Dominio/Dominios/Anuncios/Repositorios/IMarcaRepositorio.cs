@@ -11,5 +11,6 @@ namespace WebAnuncieAqui.Dominio.Dominios.Anuncios.Repositorios
         void Remover(int marca);
         List<Marca> ObterTodos();
         Marca ObterPorId(int marcaId);
+        bool VinculadoAAlgumCarro(int marcaId);
     }
 }

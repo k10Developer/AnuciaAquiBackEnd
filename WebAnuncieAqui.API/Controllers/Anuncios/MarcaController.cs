@@ -55,42 +55,44 @@ namespace WebAnuncieAqui.API.Controllers.Marcas
         {
             try
             {
+                if (_repositorio.VinculadoAAlgumCarro(id))
+                    throw new Exception("Marca não pode ser removida, pois possui vinculo com um carro.");
                 _servicos.Remover(id);
-                return Ok();
+                return Ok(new { message = "Operação realizada com sucesso." });
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return BadRequest(new { message = ex.Message });
             }
         }
 
         [HttpPost]
         [Route("v1/Marcas")]
-        public async Task<IActionResult> Salvar(Marca Marca)
+        public async Task<IActionResult> Salvar([FromBody]Marca Marca)
         {
             try
             {
                 _servicos.Salvar(Marca);
-                return Ok();
+                return Ok(new { message = "Operação realizada com sucesso." });
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return BadRequest(new { error = ex.Message });
             }
         }
 
         [HttpPut]
         [Route("v1/Marcas")]
-        public async Task<IActionResult> Alterar(Marca Marca)
+        public async Task<IActionResult> Alterar([FromBody] Marca Marca)
         {
             try
             {
                 _servicos.Alterar(Marca);
-                return Ok();
+                return Ok(new { message = "Operação realizada com sucesso." });
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return BadRequest(new { error = ex.Message });
             }
         }
     }

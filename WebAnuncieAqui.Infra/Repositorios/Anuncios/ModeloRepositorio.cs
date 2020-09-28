@@ -5,16 +5,18 @@ using System.Text;
 using WebAnuciaAqui.Infra;
 using WebAnuncieAqui.Dominio.Dominios.Anuncios;
 using WebAnuncieAqui.Dominio.Dominios.Anuncios.Repositorios;
+using WebAnuncieAqui.Dominio.Dominios.Veiculos.Repositorio;
 
 namespace WebAnuncieAqui.Infra.Repositorios.Anuncios
 {
     public class ModeloRepositorio : IModeloRepositorio
     {
         private WebAnuncieAquiContext _webAnuncieAquiContext;
-
-        public ModeloRepositorio(WebAnuncieAquiContext webAnuncieAquiContext)
+        private IVeiculoRepositorio _repositorioVeiculo;
+        public ModeloRepositorio(WebAnuncieAquiContext webAnuncieAquiContext, IVeiculoRepositorio veiculoRepositorio)
         {
             _webAnuncieAquiContext = webAnuncieAquiContext;
+            _repositorioVeiculo = veiculoRepositorio;
         }
         public void Alterar(Modelo modelo)
         {
@@ -47,6 +49,12 @@ namespace WebAnuncieAqui.Infra.Repositorios.Anuncios
         {
             _webAnuncieAquiContext.Modelos.Add(modelo);
             _webAnuncieAquiContext.SaveChanges();
+        }
+
+        public bool VinculadoAAlgumCarro(int modeloId)
+        {
+            var result = _repositorioVeiculo.ObterTodos().Any(c => c.ModeloId == modeloId && c.Ativo);
+            return result;
         }
     }
 }

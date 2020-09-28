@@ -5,16 +5,19 @@ using System.Text;
 using WebAnuciaAqui.Infra;
 using WebAnuncieAqui.Dominio.Dominios.Anuncios;
 using WebAnuncieAqui.Dominio.Dominios.Anuncios.Repositorios;
+using WebAnuncieAqui.Dominio.Dominios.Veiculos.Repositorio;
+using WebAnuncieAqui.Infra.Repositorios.Veiculos;
 
 namespace WebAnuncieAqui.Infra.Repositorios.Anuncios
 {
     public class MarcaRepositorio : IMarcaRepositorio
     {
         private WebAnuncieAquiContext _webAnuncieAquiContext;
-
-        public MarcaRepositorio(WebAnuncieAquiContext webAnuncieAquiContext)
+        private IVeiculoRepositorio _repositorioVeiculo;
+        public MarcaRepositorio(WebAnuncieAquiContext webAnuncieAquiContext, IVeiculoRepositorio veiculoRepositorio )
         {
             _webAnuncieAquiContext = webAnuncieAquiContext;
+            _repositorioVeiculo = veiculoRepositorio;
         }
         public void Alterar(Marca marca)
         {
@@ -42,6 +45,12 @@ namespace WebAnuncieAqui.Infra.Repositorios.Anuncios
         {
             _webAnuncieAquiContext.Marcas.Add(marca);
             _webAnuncieAquiContext.SaveChanges();
+        }
+
+        public bool VinculadoAAlgumCarro(int marcaId)
+        {
+            var result = _repositorioVeiculo.ObterTodos().Any(c => c.MarcaId == marcaId && c.Ativo);
+            return result;
         }
     }
 }

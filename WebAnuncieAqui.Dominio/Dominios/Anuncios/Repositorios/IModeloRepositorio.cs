@@ -12,5 +12,7 @@ namespace WebAnuncieAqui.Dominio.Dominios.Anuncios.Repositorios
         List<Modelo> ObterTodos();
         List<Modelo> ObterTodosPorMarca(int marcaId);
         Modelo ObterPorId(int modeloId);
+
+        bool VinculadoAAlgumCarro(int modeloId);
     }
 }
